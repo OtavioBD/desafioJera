@@ -11,7 +11,6 @@ struct Movie: Codable {
     var title: String
     var overview: String
     var vote_average: Double
-    var id: Int
 }
 
 struct APIResponse: Codable {
